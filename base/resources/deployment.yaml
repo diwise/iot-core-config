@@ -20,8 +20,8 @@ spec:
               fieldPath: metadata.namespace
         - name: DEV_MGMT_URL
           value: "http://iot-device-mgmt"
-        - name: RABBITMQ_DISABLED
-          value: "true"
+        - name: RABBITMQ_HOST
+          value: rabbitmq
         image: ghcr.io/diwise/iot-core:changeme
         imagePullPolicy: IfNotPresent
         livenessProbe:
