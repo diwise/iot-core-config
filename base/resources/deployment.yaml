@@ -19,7 +19,7 @@ spec:
             fieldRef:
               fieldPath: metadata.namespace
         - name: DEV_MGMT_URL
-          value: "http://iot-device-mgmt.$(POD_NAMESPACE).svc.cluster.local"
+          value: "http://iot-device-mgmt"
         - name: RABBITMQ_DISABLED
           value: "true"
         image: ghcr.io/diwise/iot-core:changeme
