@@ -1,3 +1,3 @@
 - op: replace
   path: "/spec/template/spec/containers/0/image"
-  value: ghcr.io/diwise/iot-core@sha256:d6e787601fb5df70f1cc9fe8b57231d244250fd30bad63e3df3de8ad1726df3c
+  value: ghcr.io/diwise/iot-core@sha256:902f6ff24d6d7e95cba9d01a49bd67d7d8a0d4a0274ed6f5398c1764dd39df61
