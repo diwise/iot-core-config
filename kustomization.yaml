@@ -3,3 +3,8 @@ kind: Kustomization
 
 resources:
 - ./overlays/production
+
+configMapGenerator:
+  - name: core-cfg-cm
+    files:
+      - features.csv=./config/features.csv
