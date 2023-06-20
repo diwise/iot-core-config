@@ -19,10 +19,10 @@ spec:
             fieldRef:
               fieldPath: metadata.namespace
         - name: GOMEMLIMIT
-            valueFrom:
-              resourceFieldRef:
-                containerName: iot-core
-                resource: limits.memory
+          valueFrom:
+            resourceFieldRef:
+              containerName: iot-core
+              resource: limits.memory
         - name: DEV_MGMT_URL
           value: "http://iot-device-mgmt"
         - name: RABBITMQ_HOST
