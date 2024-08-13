@@ -25,6 +25,8 @@ spec:
               resource: limits.memory
         - name: DEV_MGMT_URL
           value: "http://iot-device-mgmt"
+        - name: MEASUREMENTS_URL
+          value: "http://iot-events"
         - name: RABBITMQ_HOST
           value: rabbitmq
         image: ghcr.io/diwise/iot-core:changeme
